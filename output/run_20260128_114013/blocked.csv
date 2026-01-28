@@ -1,0 +1,688 @@
+source_file,element,target_file,customer_name,link_value,has_de,has_fr,status,reason,written_rows_total
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Primärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Sekundärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Firmenname,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Slogan,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Label Aufgabe,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Label Profil,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Label Benefits,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Label Bewerbungsprozess,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Bewerbungsprozess 1,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Bewerbungsprozess 2,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Bewerbungsprozess 3,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Bewerbungsprozess 4,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Bewerbungsprozess 5,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Bewerbungsprozess 6,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Bewerbungsprozess 7,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Label Über uns,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Label Similar Jobs,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Link Social Media 3,,Umatec SA,Estavayer (JCB) : https://umatec-jcb.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Link Social Media 4,,Umatec SA,"Domdidier, Treyvaux : https://umatec-fr.ch/",True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Link Social Media 5,,Umatec SA,Alle : https://umatec-ju.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlun_Umatec SA_Umatec Domdidier.xlsx,Berufsfeld,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Primärfarbe (HEX-Code),,AGROLA AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Sekundärfarbe (HEX-Code),,AGROLA AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Firmenname,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Slogan,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Label Aufgabe,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Label Profil,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Label Benefits,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Label Bewerbungsprozess,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Bewerbungsprozess 1,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Bewerbungsprozess 2,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Bewerbungsprozess 3,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Bewerbungsprozess 4,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Bewerbungsprozess 5,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Label Über uns,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Label Similar Jobs,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agrola_Revision.xlsx,Berufsfeld,,AGROLA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Primärfarbe (HEX-Code),,AGROLINE,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Sekundärfarbe (HEX-Code),,AGROLINE,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Firmenname,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Slogan,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Label Aufgabe,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Label Profil,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Label Benefits,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Label Bewerbungsprozess,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Bewerbungsprozess 1,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Bewerbungsprozess 2,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Bewerbungsprozess 3,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Bewerbungsprozess 4,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Bewerbungsprozess 5,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Label Über uns,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Agroline_Revision.xlsx,Label Similar Jobs,,AGROLINE,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Primärfarbe (HEX-Code),,Anicom AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Sekundärfarbe (HEX-Code),,Anicom AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Firmenname,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Slogan,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Label Aufgabe,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Label Profil,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Label Benefits,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Label Bewerbungsprozess,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Bewerbungsprozess 1,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Bewerbungsprozess 2,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Bewerbungsprozess 3,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Bewerbungsprozess 4,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Bewerbungsprozess 5,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Label Über uns,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Label Similar Jobs,,Anicom AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anicom_Revision.xlsx,Link Social Media 1,,Anicom AG,www.anicom.ch,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Anicom_Revision.xlsx,Berufsfeld,,Anicom AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Primärfarbe (HEX-Code),,Anliker Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Sekundärfarbe (HEX-Code),,Anliker Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Firmenname,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Slogan,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Label Aufgabe,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Label Profil,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Label Benefits,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Label Bewerbungsprozess,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Bewerbungsprozess 1,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Bewerbungsprozess 2,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Bewerbungsprozess 3,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Bewerbungsprozess 4,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Bewerbungsprozess 5,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Label Über uns,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Label Similar Jobs,,Anliker Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Anliker_Revision.xlsx,Link Social Media 2,,Anliker Landtechnik,www.anlikerag.ch,True,False,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Anliker_Revision.xlsx,Berufsfeld,,Anliker Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Firmenname,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Label Aufgabe,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Label Profil,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Label Benefits,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Label Bewerbungsprozess,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Bewerbungsprozess 1,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Bewerbungsprozess 2,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Bewerbungsprozess 3,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Bewerbungsprozess 4,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Bewerbungsprozess 5,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Label Über uns,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Bonfrais_Bongel_Berger_Revision.xlsx,Label Similar Jobs,,Bonfrais Bongel & Berger frigemo sa,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Firmenname,,CADAR AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Label Aufgabe,,CADAR AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Label Profil,,CADAR AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Label Benefits,,CADAR AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Label Bewerbungsprozess,,CADAR AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Bewerbungsprozess 1,,CADAR AG,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Bewerbungsprozess 2,,CADAR AG,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Bewerbungsprozess 3,,CADAR AG,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Bewerbungsprozess 4,,CADAR AG,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Bewerbungsprozess 5,,CADAR AG,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Label Über uns,,CADAR AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Label Similar Jobs,,CADAR AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Cadar_Revision.xlsx,Link Social Media 4,,CADAR AG,https://www.google.ch/search?q=cadar&sca_esv=5e78618b726d8b1c&source=hp&ei=xRvXZuGBBrjk7_UPpJ3PsAU&iflsig=AL9hbdgAAAAAZtcp1URpnTt7WbZafTsQByG5aRXYcUsa&ved=0ahUKEwih-PDb_KaIAxU48rsIHaTOE1YQ4dUDCBk&uact=5&oq=cadar&gs_lp=Egdnd3Mtd2l6GgIYAiIFY2FkYXIyBRAAGIAEMgUQABiABDIREC4YgAQYsQMYgwEYxwEYrwEyDhAAGIAEGLEDGIMBGMkDMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIIEC4YgAQYsQMyBRAAGIAESP0DUABY_gJwAHgAkAEAmAGCAqABhQaqAQUwLjIuMrgBA8gBAPgBAZgCBKACmgbCAhQQLhiABBixAxiDARjHARiKBRivAcICERAuGIAEGLEDGNEDGIMBGMcBwgIOEC4YgAQYsQMYgwEYigXCAg4QABiABBixAxiDARiLA8ICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAgQQABgDwgIFEC4YgASYAwCSBwUwLjIuMqAH8Sg&sclient=gws-wiz,False,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Culturefood_Revision.xlsx,Firmenname,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Firmenlogo,,Culturefood & CFD,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Label Aufgabe,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Label Profil,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Label Benefits,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Label Bewerbungsprozess,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Bewerbungsprozess 1,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Bewerbungsprozess 2,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Bewerbungsprozess 3,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Bewerbungsprozess 4,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Bewerbungsprozess 5,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Label Über uns,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Culturefood_Revision.xlsx,Label Similar Jobs,,Culturefood & CFD,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Firmenname,,fenaco Dienste Pflanzenbau,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Label Aufgabe,,fenaco Dienste Pflanzenbau,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Label Profil,,fenaco Dienste Pflanzenbau,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Label Benefits,,fenaco Dienste Pflanzenbau,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Label Bewerbungsprozess,,fenaco Dienste Pflanzenbau,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Bewerbungsprozess 1,,fenaco Dienste Pflanzenbau,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Bewerbungsprozess 2,,fenaco Dienste Pflanzenbau,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Bewerbungsprozess 3,,fenaco Dienste Pflanzenbau,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Bewerbungsprozess 4,,fenaco Dienste Pflanzenbau,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Bewerbungsprozess 5,,fenaco Dienste Pflanzenbau,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Label Über uns,,fenaco Dienste Pflanzenbau,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Dienste Pflanzenbau_Revision.xlsx,Label Similar Jobs,,fenaco Dienste Pflanzenbau,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Firmenname,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Label Aufgabe,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Label Profil,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Label Benefits,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Label Bewerbungsprozess,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Bewerbungsprozess 1,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Bewerbungsprozess 2,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Bewerbungsprozess 3,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Bewerbungsprozess 4,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Bewerbungsprozess 5,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Label Über uns,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_EICO_Revision.xlsx,Label Similar Jobs,,EiCO frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Primärfarbe (HEX-Code),,Eichen Service Center,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Sekundärfarbe (HEX-Code),,Eichen Service Center,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Firmenname,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Label Aufgabe,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Label Profil,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Label Benefits,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Label Bewerbungsprozess,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Bewerbungsprozess 1,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Bewerbungsprozess 2,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Bewerbungsprozess 3,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Bewerbungsprozess 4,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Bewerbungsprozess 5,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Label Über uns,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Label Similar Jobs,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eichen_Revision.xlsx,Link Social Media 1,,Eichen Service Center,https://eichen-service.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Eichen_Revision.xlsx,Berufsfeld,,Eichen Service Center,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Firmenname,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Label Aufgabe,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Label Profil,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Label Benefits,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Label Bewerbungsprozess,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Bewerbungsprozess 1,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Bewerbungsprozess 2,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Bewerbungsprozess 3,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Bewerbungsprozess 4,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Bewerbungsprozess 5,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Label Über uns,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Eiermaa_Revision.xlsx,Label Similar Jobs,,Eiermaa AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Firmenname,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Label Aufgabe,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Label Profil,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Label Benefits,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Label Bewerbungsprozess,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Bewerbungsprozess 1,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Bewerbungsprozess 2,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Bewerbungsprozess 3,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Bewerbungsprozess 4,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Bewerbungsprozess 5,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Label Über uns,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Geb_Marksteiner_frigemo_Revision.xlsx,Label Similar Jobs,,Gebrüder Marksteiner frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Primärfarbe (HEX-Code),,JCB Suisse,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Sekundärfarbe (HEX-Code),,JCB Suisse,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Firmenname,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Label Aufgabe,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Label Profil,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Label Benefits,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Label Bewerbungsprozess,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Bewerbungsprozess 1,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Bewerbungsprozess 2,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Bewerbungsprozess 3,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Bewerbungsprozess 4,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Bewerbungsprozess 5,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Label Über uns,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Label Similar Jobs,,JCB Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_JCB Suisse_Revision.xlsx,Link Social Media 2,,JCB Suisse,https://.jcb-suisse.ch,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Kellenberger_Revision.xlsx,Firmenname,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Label Aufgabe,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Label Profil,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Label Benefits,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Label Bewerbungsprozess,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Bewerbungsprozess 1,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Bewerbungsprozess 2,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Bewerbungsprozess 3,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Bewerbungsprozess 4,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Bewerbungsprozess 5,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Label Über uns,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kellenberger_Revision.xlsx,Label Similar Jobs,,Kellenberger Frisch Service frigemo AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Primärfarbe (HEX-Code),,Kunz Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Sekundärfarbe (HEX-Code),,Kunz Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Firmenname,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Slogan,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Label Aufgabe,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Label Profil,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Label Benefits,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Label Bewerbungsprozess,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Bewerbungsprozess 1,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Bewerbungsprozess 2,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Bewerbungsprozess 3,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Bewerbungsprozess 4,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Bewerbungsprozess 5,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Label Über uns,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Label Similar Jobs,,Kunz Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Link Social Media 1,,Kunz Landtechnik,www.kunz-landtechnik.ch,True,False,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Kunz_Landtechnik_Revision.xlsx,Berufsfeld,,Kunz Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Firmenname,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Label Aufgabe,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Label Profil,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Label Benefits,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Label Bewerbungsprozess,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Bewerbungsprozess 1,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Bewerbungsprozess 2,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Bewerbungsprozess 3,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Bewerbungsprozess 4,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Bewerbungsprozess 5,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Label Über uns,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Labeye_Revision.xlsx,Label Similar Jobs,,Labeye SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Firmenname,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Slogan,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Label Aufgabe,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Label Profil,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Label Benefits,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Label Bewerbungsprozess,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 1,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 2,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 3,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 4,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 5,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 6,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 7,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Bewerbungsprozess 8,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Label Über uns,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Label Similar Jobs,,LANDOR,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Landor_Revision.xlsx,Berufsfeld,,LANDOR,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Primärfarbe (HEX-Code),,LÄDERACH AGRO,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Sekundärfarbe (HEX-Code),,LÄDERACH AGRO,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Firmenname,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Slogan,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Label Aufgabe,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Label Profil,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Label Benefits,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Label Bewerbungsprozess,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Bewerbungsprozess 1,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Bewerbungsprozess 2,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Bewerbungsprozess 3,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Bewerbungsprozess 4,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Bewerbungsprozess 5,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Label Über uns,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Label Similar Jobs,,LÄDERACH AGRO,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Läderach_Revision.xlsx,Link Social Media 2,,LÄDERACH AGRO,www.laederach-agro.ch,True,False,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Primärfarbe (HEX-Code),,Meier Maschinen,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Sekundärfarbe (HEX-Code),,Meier Maschinen,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Firmenname,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Slogan,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Label Aufgabe,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Label Profil,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Label Benefits,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Label Bewerbungsprozess,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Bewerbungsprozess 1,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Bewerbungsprozess 2,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Bewerbungsprozess 3,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Bewerbungsprozess 4,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Bewerbungsprozess 5,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Label Über uns,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Label Similar Jobs,,Meier Maschinen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meier_Maschinen_Revision.xlsx,Berufsfeld,,Meier Maschinen,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Primärfarbe (HEX-Code),,Meliofeed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Firmenname,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Slogan,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Label Aufgabe,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Label Profil,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Label Benefits,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Label Bewerbungsprozess,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Bewerbungsprozess 1,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Bewerbungsprozess 2,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Bewerbungsprozess 3,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Bewerbungsprozess 4,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Bewerbungsprozess 5,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Label Über uns,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Label Similar Jobs,,Meliofeed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Meliofeed_Revision.xlsx,Berufsfeld,,Meliofeed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Firmenname,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Label Aufgabe,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Label Profil,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Label Benefits,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Label Bewerbungsprozess,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Bewerbungsprozess 1,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Bewerbungsprozess 2,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Bewerbungsprozess 3,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Bewerbungsprozess 4,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Bewerbungsprozess 5,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Label Über uns,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_MichelComestibles_Revision.xlsx,Label Similar Jobs,,Michel Comestibles AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Primärfarbe (HEX-Code),,Provins SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Firmenname,,Provins SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Slogan,,Provins SA,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Label Aufgabe,,Provins SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Label Profil,,Provins SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Label Benefits,,Provins SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Label Bewerbungsprozess,,Provins SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Bewerbungsprozess 1,,Provins SA,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Bewerbungsprozess 2,,Provins SA,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Bewerbungsprozess 3,,Provins SA,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Bewerbungsprozess 4,,Provins SA,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Bewerbungsprozess 5,,Provins SA,,False,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Label Über uns,,Provins SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Provins_Revision.xlsx,Label Similar Jobs,,Provins SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Primärfarbe (HEX-Code),,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Firmenname,,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Slogan,,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Label Aufgabe,,RAMSEIER Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Label Profil,,RAMSEIER Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Label Benefits,,RAMSEIER Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Label Bewerbungsprozess,,RAMSEIER Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Bewerbungsprozess 1,,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Bewerbungsprozess 2,,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Bewerbungsprozess 3,,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Bewerbungsprozess 4,,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Bewerbungsprozess 5,,RAMSEIER Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Label Über uns,,RAMSEIER Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ramseier_Revision.xlsx,Label Similar Jobs,,RAMSEIER Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Primärfarbe (HEX-Code),,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Sekundärfarbe (HEX-Code),,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Firmenname,,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Label Aufgabe,,Rutishauser-DiVino SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Label Profil,,Rutishauser-DiVino SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Label Benefits,,Rutishauser-DiVino SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Label Bewerbungsprozess,,Rutishauser-DiVino SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Bewerbungsprozess 1,,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Bewerbungsprozess 2,,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Bewerbungsprozess 3,,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Bewerbungsprozess 4,,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Bewerbungsprozess 5,,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Label Über uns,,Rutishauser-DiVino SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Label Similar Jobs,,Rutishauser-DiVino SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_RuDi_Revision.xlsx,Link Social Media 4,,Rutishauser-DiVino SA,Onlineshop: https://www.rutishauser.com,True,False,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_RuDi_Revision.xlsx,Berufsfeld,,Rutishauser-DiVino SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Primärfarbe (HEX-Code),,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Sekundärfarbe (HEX-Code),,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Firmenname,,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Slogan,,Schöpfer Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Label Aufgabe,,Schöpfer Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Label Profil,,Schöpfer Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Label Benefits,,Schöpfer Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Label Bewerbungsprozess,,Schöpfer Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Bewerbungsprozess 1,,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Bewerbungsprozess 2,,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Bewerbungsprozess 3,,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Bewerbungsprozess 4,,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Bewerbungsprozess 5,,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Label Über uns,,Schöpfer Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Label Similar Jobs,,Schöpfer Landtechnik,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Schoepfer_Landtechnik_Revision.xlsx,Berufsfeld,,Schöpfer Landtechnik,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Primärfarbe (HEX-Code),,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Sekundärfarbe (HEX-Code),,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Firmenname,,Serco Landtechnik AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Slogan,,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Label Aufgabe,,Serco Landtechnik AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Label Profil,,Serco Landtechnik AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Label Benefits,,Serco Landtechnik AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Label Bewerbungsprozess,,Serco Landtechnik AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Bewerbungsprozess 1,,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Bewerbungsprozess 2,,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Bewerbungsprozess 3,,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Bewerbungsprozess 4,,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Bewerbungsprozess 5,,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Label Über uns,,Serco Landtechnik AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Label Similar Jobs,,Serco Landtechnik AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Landtechnik_Revision.xlsx,Berufsfeld,,Serco Landtechnik AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Primärfarbe (HEX-Code),,Serco Suisse,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Sekundärfarbe (HEX-Code),,Serco Suisse,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Firmenname,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Label Aufgabe,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Label Profil,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Label Benefits,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Label Bewerbungsprozess,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Bewerbungsprozess 1,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Bewerbungsprozess 2,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Bewerbungsprozess 3,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Bewerbungsprozess 4,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Bewerbungsprozess 5,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Label Über uns,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Label Similar Jobs,,Serco Suisse,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Serco_Suisse_Revision.xlsx,Berufsfeld,,Serco Suisse,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Primärfarbe (HEX-Code),,Sevra Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Sekundärfarbe (HEX-Code),,Sevra Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Firmenname,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Slogan,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Label Aufgabe,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Label Profil,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Label Benefits,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Label Bewerbungsprozess,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Bewerbungsprozess 1,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Bewerbungsprozess 2,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Bewerbungsprozess 3,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Bewerbungsprozess 4,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Bewerbungsprozess 5,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Label Über uns,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Label Similar Jobs,,Sevra Suisse AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Sevra_Revision.xlsx,Berufsfeld,,Sevra Suisse AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Primärfarbe (HEX-Code),,Traveco Transporte AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Sekundärfarbe (HEX-Code),,Traveco Transporte AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Firmenname,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Label Aufgabe,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Label Profil,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Label Benefits,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Label Bewerbungsprozess,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Bewerbungsprozess 1,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Bewerbungsprozess 2,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Bewerbungsprozess 3,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Bewerbungsprozess 4,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Bewerbungsprozess 5,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Label Über uns,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Label Similar Jobs,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_TRAVECO_Revision.xlsx,Link Social Media 5,,Traveco Transporte AG,https://www.tiktok.com/@traveco.ch,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_TRAVECO_Revision.xlsx,Berufsfeld,,Traveco Transporte AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Primärfarbe (HEX-Code),,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Sekundärfarbe (HEX-Code),,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Firmenname,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Slogan,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Label Aufgabe,,UFAG LABORATORIEN AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Label Profil,,UFAG LABORATORIEN AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Label Benefits,,UFAG LABORATORIEN AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Label Bewerbungsprozess,,UFAG LABORATORIEN AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Bewerbungsprozess 1,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Bewerbungsprozess 2,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Bewerbungsprozess 3,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Bewerbungsprozess 4,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Bewerbungsprozess 5,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Label Über uns,,UFAG LABORATORIEN AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Label Similar Jobs,,UFAG LABORATORIEN AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Link Social Media 2,,UFAG LABORATORIEN AG,https://www.xing.com/pages/ufaglaboratorienag,True,False,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_UFAG_Laboratorien_Revision.xlsx,Berufsfeld,,UFAG LABORATORIEN AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Firmenname,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Slogan,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Label Aufgabe,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Label Profil,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Label Benefits,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Label Bewerbungsprozess,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Bewerbungsprozess 1,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Bewerbungsprozess 2,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Bewerbungsprozess 3,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Bewerbungsprozess 4,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Bewerbungsprozess 5,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Label Über uns,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Label Similar Jobs,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_UFA_Revision.xlsx,Link Social Media 4,,UFA AG,https://www.ufa.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_UFA_Revision.xlsx,Berufsfeld,,UFA AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Primärfarbe (HEX-Code),,UFA Samen,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Sekundärfarbe (HEX-Code),,UFA Samen,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Firmenname,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Slogan,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Label Aufgabe,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Label Profil,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Label Benefits,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Label Bewerbungsprozess,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Bewerbungsprozess 1,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Bewerbungsprozess 2,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Bewerbungsprozess 3,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Bewerbungsprozess 4,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Bewerbungsprozess 5,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Label Über uns,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Label Similar Jobs,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufa_Samen_Revision.xlsx,Berufsfeld,,UFA Samen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Primärfarbe (HEX-Code),,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Sekundärfarbe (HEX-Code),,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Firmenname,,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Label Aufgabe,,ufamed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Label Profil,,ufamed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Label Benefits,,ufamed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Label Bewerbungsprozess,,ufamed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Bewerbungsprozess 1,,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Bewerbungsprozess 2,,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Bewerbungsprozess 3,,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Bewerbungsprozess 4,,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Bewerbungsprozess 5,,ufamed AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Label Über uns,,ufamed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Ufamed_Revision.xlsx,Label Similar Jobs,,ufamed AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Primärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Sekundärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Firmenname,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Slogan,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Label Aufgabe,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Label Profil,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Label Benefits,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Label Bewerbungsprozess,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Bewerbungsprozess 1,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Bewerbungsprozess 2,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Bewerbungsprozess 3,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Bewerbungsprozess 4,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Bewerbungsprozess 5,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Bewerbungsprozess 6,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Bewerbungsprozess 7,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Label Über uns,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Label Similar Jobs,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Link Social Media 3,,Umatec SA,Estavayer (JCB) : https://umatec-jcb.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Link Social Media 4,,Umatec SA,"Domdidier, Treyvaux : https://umatec-fr.ch/",True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Link Social Media 5,,Umatec SA,Alle : https://umatec-ju.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec SA_Umatec Estavayer-le-Lac.xlsx,Berufsfeld,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Primärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Sekundärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Firmenname,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Slogan,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Label Aufgabe,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Label Profil,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Label Benefits,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Label Bewerbungsprozess,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Bewerbungsprozess 1,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Bewerbungsprozess 2,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Bewerbungsprozess 3,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Bewerbungsprozess 4,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Bewerbungsprozess 5,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Bewerbungsprozess 6,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Bewerbungsprozess 7,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Label Über uns,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Label Similar Jobs,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Link Social Media 3,,Umatec SA,Estavayer (JCB) : https://umatec-jcb.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Link Social Media 4,,Umatec SA,"Domdidier, Treyvaux : https://umatec-fr.ch/",True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Link Social Media 5,,Umatec SA,Alle : https://umatec-ju.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec SA_Umatec Treyvaux.xlsx,Berufsfeld,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Primärfarbe (HEX-Code),,Umatec Alle,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Sekundärfarbe (HEX-Code),,Umatec Alle,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Firmenname,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Slogan,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Label Aufgabe,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Label Profil,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Label Benefits,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Label Bewerbungsprozess,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Bewerbungsprozess 1,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Bewerbungsprozess 2,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Bewerbungsprozess 3,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Bewerbungsprozess 4,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Bewerbungsprozess 5,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Label Über uns,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Label Similar Jobs,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_Revision.xlsx,Link Social Media 3,,Umatec Alle,Estavayer (JCB) : https://umatec-jcb.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec_Revision.xlsx,Link Social Media 4,,Umatec Alle,"Domdidier, Treyvaux : https://umatec-fr.ch/",True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec_Revision.xlsx,Link Social Media 5,,Umatec Alle,Alle : https://umatec-ju.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec_Revision.xlsx,Berufsfeld,,Umatec Alle,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Primärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Sekundärfarbe (HEX-Code),,Umatec SA,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Firmenname,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Slogan,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Label Aufgabe,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Label Profil,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Label Benefits,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Label Bewerbungsprozess,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Bewerbungsprozess 1,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Bewerbungsprozess 2,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Bewerbungsprozess 3,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Bewerbungsprozess 4,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Bewerbungsprozess 5,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Bewerbungsprozess 6,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Bewerbungsprozess 7,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Label Über uns,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Label Similar Jobs,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Link Social Media 3,,Umatec SA,Estavayer (JCB) : https://umatec-jcb.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Link Social Media 4,,Umatec SA,"Domdidier, Treyvaux : https://umatec-fr.ch/",True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Link Social Media 5,,Umatec SA,Alle : https://umatec-ju.ch/,True,True,BLOCK_NO_TARGET_FILE,social_link_unmapped,0
+Datensammlung_Umatec_SA_Umatec Alle.xlsx,Berufsfeld,,Umatec SA,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Primärfarbe (HEX-Code),,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Sekundärfarbe (HEX-Code),,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Firmenname,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Label Aufgabe,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Label Profil,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Label Benefits,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Label Bewerbungsprozess,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Bewerbungsprozess 1,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Bewerbungsprozess 2,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Bewerbungsprozess 3,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Bewerbungsprozess 4,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Bewerbungsprozess 5,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Label Über uns,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Label Similar Jobs,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_fenaco GOF_Revision.xlsx,Berufsfeld,,"Getreide, Ölsaaten und Futtermittel, fenaco Genossenschaft",,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Firmenname,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Label Aufgabe,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Label Profil,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Label Benefits,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Label Bewerbungsprozess,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Bewerbungsprozess 1,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Bewerbungsprozess 2,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Bewerbungsprozess 3,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Bewerbungsprozess 4,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Bewerbungsprozess 5,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Label Über uns,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_frigemo_produktion_Revision.xlsx,Label Similar Jobs,,frigemo Produktion / Handel (gelb),,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Firmenname,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Label Aufgabe,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Label Profil,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Label Benefits,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Label Bewerbungsprozess,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Bewerbungsprozess 1,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Bewerbungsprozess 2,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Bewerbungsprozess 3,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Bewerbungsprozess 4,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Bewerbungsprozess 5,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Label Über uns,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_Unterseen_Revision.xlsx,Label Similar Jobs,,Gourmador frigemo AG Unterseen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Firmenname,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Label Aufgabe,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Label Profil,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Label Benefits,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Label Bewerbungsprozess,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Bewerbungsprozess 1,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Bewerbungsprozess 2,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Bewerbungsprozess 3,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Bewerbungsprozess 4,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Bewerbungsprozess 5,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Label Über uns,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_gourmador_zollikofen_Revision.xlsx,Label Similar Jobs,,Gourmador frigemo AG Zollikofen,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Primärfarbe (HEX-Code),,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Sekundärfarbe (HEX-Code),,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Firmenname,,granaagro Deutschland GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Label Aufgabe,,granaagro Deutschland GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Label Profil,,granaagro Deutschland GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Label Benefits,,granaagro Deutschland GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Label Bewerbungsprozess,,granaagro Deutschland GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Bewerbungsprozess 1,,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Bewerbungsprozess 2,,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Bewerbungsprozess 3,,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Bewerbungsprozess 4,,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Bewerbungsprozess 5,,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Label Über uns,,granaagro Deutschland GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Label Similar Jobs,,granaagro Deutschland GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_granaagro_Revision.xlsx,Berufsfeld,,granaagro Deutschland GmbH,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Primärfarbe (HEX-Code),,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Sekundärfarbe (HEX-Code),,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Firmenname,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Slogan,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Label Aufgabe,,Halag Chemie AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Label Profil,,Halag Chemie AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Label Benefits,,Halag Chemie AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Label Bewerbungsprozess,,Halag Chemie AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Bewerbungsprozess 1,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Bewerbungsprozess 2,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Bewerbungsprozess 3,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Bewerbungsprozess 4,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Bewerbungsprozess 5,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Label Über uns,,Halag Chemie AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Label Similar Jobs,,Halag Chemie AG,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_halag_Revision.xlsx,Berufsfeld,,Halag Chemie AG,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Primärfarbe (HEX-Code),,Inoverde,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Sekundärfarbe (HEX-Code),,Inoverde,,True,False,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Firmenname,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Slogan,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Label Aufgabe,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Label Profil,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Label Benefits,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Label Bewerbungsprozess,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Bewerbungsprozess 1,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Bewerbungsprozess 2,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Bewerbungsprozess 3,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Bewerbungsprozess 4,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Bewerbungsprozess 5,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Label Über uns,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Label Similar Jobs,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+Datensammlung_inoverde_Revision.xlsx,Berufsfeld,,Inoverde,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+sample_source.csv,Firmenname,,Acme GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0
+sample_source.csv,Slogan,,Acme GmbH,,True,True,BLOCK_NO_TARGET_FILE,no_target_file_match,0

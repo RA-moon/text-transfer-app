@@ -1,0 +1,69 @@
+job_name: "Customer Text Import - Filename to Target Cell (Fuzzy)"
+
+source:
+  file_types: ["xlsx", "csv"]
+
+  element:
+    column: "Element"
+    fuzzy_threshold: 0.78
+    rules:
+      - name: "benefit_titel"
+        when:
+          contains: ["benefit", "titel"]
+        target:
+          filename_contains: ["titel"]
+          prefer_benefit_number: true
+      - name: "benefit_text"
+        when:
+          contains: ["benefit", "text"]
+        target:
+          filename_contains: ["text"]
+          prefer_benefit_number: true
+
+  customer:
+    method: "excel_cell_or_csv_row"
+    excel_cell: "E5"
+    csv:
+      row_match:
+        column: "Element"
+        equals: "Firmenname"
+      value_column_preference: ["Unnamed: 4", "col_index:4"]
+
+  content:
+    mode: "row_columns"
+    languages:
+      DE:
+        columns: ["col_letter:E", "col_letter:G"]
+        target_column: "Inhalt DE"
+      FR:
+        columns: ["col_letter:F", "col_letter:H"]
+        target_column: "Inhalt FR"
+
+customer_match:
+  source:
+    type: "filename_regex"
+    filename_regex: "(?i)datensammlun[g]?[ _]+(.+?)(?:_revision)?$"
+  target:
+    type: "column"
+    column: "Label DE"
+  normalize: ["strip", "lower", "collapse_spaces"]
+  mode: "fuzzy"
+  fuzzy_threshold: 0.78
+
+target:
+  file_types: ["xlsx", "csv"]
+  match:
+    column: "Label DE"
+    normalize: ["strip", "lower", "collapse_spaces"]
+    mode: "exact"
+  write:
+    de_column: "Inhalt DE"
+    fr_column: "Inhalt FR"
+  behavior:
+    overwrite_existing: true
+    write_only_if_present: true
+    strict_single_match: false
+
+output:
+  write_reports: true
+  reports_exclude_text: true
