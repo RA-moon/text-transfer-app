@@ -59,15 +59,50 @@ with st.sidebar:
     st.subheader("Run Settings")
     st.caption(f"Arbeitsordner: {BASE_DIR}")
     st.caption(f"Configs: {CONFIG_DIR}")
-    job_name = st.selectbox("Job auswählen", [p.name for p in job_files], key="job_select")
-    source_dir = st.text_input("Source-Ordner (Datensammlungen)", value=str(DEFAULT_SOURCE_DIR), key="source_dir")
-    target_dir = st.text_input("Target-Ordner (Zieldateien)", value=str(DEFAULT_TARGET_DIR), key="target_dir")
-    output_dir = st.text_input("Output-Basisordner", value=str(DEFAULT_OUTPUT_DIR), key="output_dir")
+    job_name = st.selectbox(
+        "Job auswählen",
+        [p.name for p in job_files],
+        key="job_select",
+        help="Welche Config fuer den Run verwendet wird.",
+    )
+    source_dir = st.text_input(
+        "Source-Ordner (Datensammlungen)",
+        value=str(DEFAULT_SOURCE_DIR),
+        key="source_dir",
+        help="Ordner mit den Eingabedateien (xlsx/csv).",
+    )
+    target_dir = st.text_input(
+        "Target-Ordner (Zieldateien)",
+        value=str(DEFAULT_TARGET_DIR),
+        key="target_dir",
+        help="Ordner mit den Ziel-Dateien (xlsx/csv).",
+    )
+    output_dir = st.text_input(
+        "Output-Basisordner",
+        value=str(DEFAULT_OUTPUT_DIR),
+        key="output_dir",
+        help="Hier werden Run-Ausgaben erzeugt (report, blocked, updated_targets, etc.).",
+    )
     st.divider()
     st.caption("Run-Optionen")
-    strict_override = st.checkbox("Strict single match", value=False, key="strict_override")
-    write_reports = st.checkbox("Lokale Reports", value=True, key="write_reports")
-    write_collisions = st.checkbox("Collision-Log", value=True, key="write_collisions")
+    strict_override = st.checkbox(
+        "Strict single match",
+        value=False,
+        key="strict_override",
+        help="Blockiert wenn mehr als ein Ziel-Row matched.",
+    )
+    write_reports = st.checkbox(
+        "Lokale Reports",
+        value=True,
+        key="write_reports",
+        help="Erzeugt report.csv, blocked.csv und audit.json.",
+    )
+    write_collisions = st.checkbox(
+        "Collision-Log",
+        value=True,
+        key="write_collisions",
+        help="Erzeugt collisions.csv fuer widerspruechliche Writes.",
+    )
 
 job_path = CONFIG_DIR / job_name
 
@@ -155,22 +190,22 @@ def _get_first_columns(folder: str, file_types: list[str]) -> list[str]:
     except Exception:
         return []
 
-def _select_with_custom(label: str, options: list[str], current: str, key_prefix: str) -> str:
+def _select_with_custom(label: str, options: list[str], current: str, key_prefix: str, help_text: str = "") -> str:
     if options:
         opts = options + ["<custom>"]
         default_idx = opts.index(current) if current in options else opts.index("<custom>")
-        choice = st.selectbox(label, opts, index=default_idx, key=f"{key_prefix}_select")
+        choice = st.selectbox(label, opts, index=default_idx, key=f"{key_prefix}_select", help=help_text or None)
         if choice == "<custom>":
-            return st.text_input(f"{label} (custom)", value=current or "", key=f"{key_prefix}_custom")
+            return st.text_input(f"{label} (custom)", value=current or "", key=f"{key_prefix}_custom", help=help_text or None)
         return choice
-    return st.text_input(label, value=current or "", key=f"{key_prefix}_custom")
+    return st.text_input(label, value=current or "", key=f"{key_prefix}_custom", help=help_text or None)
 
-def _multiselect_with_custom(label: str, options: list[str], current: list[str], key_prefix: str) -> list[str]:
+def _multiselect_with_custom(label: str, options: list[str], current: list[str], key_prefix: str, help_text: str = "") -> list[str]:
     current = current or []
     in_options = [c for c in current if c in options]
     extra = [c for c in current if c not in options]
-    selected = st.multiselect(label, options, default=in_options, key=f"{key_prefix}_multi")
-    extra_text = st.text_input(f"{label} (custom, comma separated)", value=", ".join(extra), key=f"{key_prefix}_custom")
+    selected = st.multiselect(label, options, default=in_options, key=f"{key_prefix}_multi", help=help_text or None)
+    extra_text = st.text_input(f"{label} (custom, comma separated)", value=", ".join(extra), key=f"{key_prefix}_custom", help=help_text or None)
     extra_list = _split_csv_list(extra_text)
     return selected + extra_list
 
@@ -187,7 +222,12 @@ def _save_editor_content_to(out_path: pathlib.Path) -> bool:
 
 st.subheader("Job-Config bearbeiten")
 st.markdown(f"[Hilfe zur Job-Config Anleitung]({README_PATH.as_uri()})")
-editor_job_name = st.selectbox("Config-Datei für Editor", [p.name for p in job_files], index=[p.name for p in job_files].index(job_name))
+editor_job_name = st.selectbox(
+    "Config-Datei für Editor",
+    [p.name for p in job_files],
+    index=[p.name for p in job_files].index(job_name),
+    help="Welche Datei im Editor geladen wird.",
+)
 editor_path = CONFIG_DIR / editor_job_name
 
 if editor_job_name != job_name:
@@ -220,7 +260,12 @@ template_names = [p.name for p in template_files]
 
 colTpl1, colTpl2 = st.columns(2)
 with colTpl1:
-    tpl_choice = st.selectbox("Template laden", template_names, key="tpl_choice") if template_names else None
+    tpl_choice = st.selectbox(
+        "Template laden",
+        template_names,
+        key="tpl_choice",
+        help="Laedt eine Vorlage in den Editor.",
+    ) if template_names else None
     if st.button("Template in Editor laden"):
         if not tpl_choice:
             st.warning("Keine Templates gefunden.")
@@ -230,7 +275,12 @@ with colTpl1:
             st.session_state["editor_loaded"] = tpl_choice
             st.success(f"Template geladen: {tpl_choice}")
 with colTpl2:
-    tpl_save_name = st.text_input("Template speichern als", value="", key="tpl_save_name")
+    tpl_save_name = st.text_input(
+        "Template speichern als",
+        value="",
+        key="tpl_save_name",
+        help="Speichert den aktuellen Editor-Inhalt als Template.",
+    )
     if st.button("Als Template speichern"):
         name = tpl_save_name.strip()
         if not name:
@@ -244,14 +294,25 @@ st.divider()
 st.subheader("Configs verwalten")
 colCfg1, colCfg2 = st.columns(2)
 with colCfg1:
-    load_name = st.selectbox("Config laden", [p.name for p in job_files], index=[p.name for p in job_files].index(editor_job_name), key="cfg_load_name")
+    load_name = st.selectbox(
+        "Config laden",
+        [p.name for p in job_files],
+        index=[p.name for p in job_files].index(editor_job_name),
+        key="cfg_load_name",
+        help="Laedt eine Config in den Editor.",
+    )
     if st.button("In Editor laden"):
         load_path = CONFIG_DIR / load_name
         st.session_state["editor_content"] = load_path.read_text(encoding="utf-8")
         st.session_state["editor_loaded"] = load_name
         st.success(f"Geladen: {load_name}")
 with colCfg2:
-    save_as_name = st.text_input("Speichern unter", value=editor_job_name, key="cfg_save_as_name")
+    save_as_name = st.text_input(
+        "Speichern unter",
+        value=editor_job_name,
+        key="cfg_save_as_name",
+        help="Speichert den aktuellen Editor-Inhalt unter neuem Namen.",
+    )
     if st.button("Speichern unter..."):
         name = save_as_name.strip()
         if not name:
@@ -288,7 +349,12 @@ target_options = {
 default_source_type = str(cm_source.get("type") or "excel_cell_or_csv_row")
 default_target_type = str(cm_target.get("type") or "column")
 regex_in_use = default_source_type == "filename_regex" or default_target_type == "filename_regex"
-show_advanced = st.checkbox("Erweitert (Regex anzeigen)", value=regex_in_use, key="cm_advanced")
+show_advanced = st.checkbox(
+    "Erweitert (Regex anzeigen)",
+    value=regex_in_use,
+    key="cm_advanced",
+    help="Blendet Regex-Optionen fuer Source/Target ein.",
+)
 if show_advanced:
     source_options["filename_regex"] = "Dateiname per Regex"
     target_options["filename_regex"] = "Zieldateiname per Regex"
@@ -315,6 +381,7 @@ with colCM1:
         index=list(source_options.keys()).index(default_source_type) if default_source_type in source_options else 0,
         format_func=lambda k: source_options[k],
         key="cm_source_type",
+        help="Wie der Kundenname aus der Source ermittelt wird.",
     )
 with colCM2:
     target_type = st.selectbox(
@@ -323,6 +390,7 @@ with colCM2:
         index=list(target_options.keys()).index(default_target_type) if default_target_type in target_options else 0,
         format_func=lambda k: target_options[k],
         key="cm_target_type",
+        help="Wie der Kundenname im Target gematcht wird.",
     )
 
 source_excel_cell = ""
@@ -332,16 +400,43 @@ target_column = ""
 target_regex = ""
 
 if source_type in ("excel_cell_or_csv_row", "excel_cell"):
-    source_excel_cell = st.text_input("Excel-Zelle (z. B. E5)", value=default_excel_cell, key="cm_excel_cell")
+    source_excel_cell = st.text_input(
+        "Excel-Zelle (z. B. E5)",
+        value=default_excel_cell,
+        key="cm_excel_cell",
+        help="Zell-ID fuer den Kundenname bei Excel-Dateien.",
+    )
 if source_type == "column":
-    source_column = _select_with_custom("Source-Spalte", source_columns, default_source_column, "cm_source_column")
+    source_column = _select_with_custom(
+        "Source-Spalte",
+        source_columns,
+        default_source_column,
+        "cm_source_column",
+        help_text="Spalte mit dem Kundenname in der Source-Zeile.",
+    )
 if source_type == "filename_regex":
-    source_regex = st.text_input("Source-Dateiname Regex", value=default_source_regex, key="cm_source_regex")
+    source_regex = st.text_input(
+        "Source-Dateiname Regex",
+        value=default_source_regex,
+        key="cm_source_regex",
+        help="Regex muss den Kundenname aus dem Dateinamen liefern.",
+    )
 
 if target_type == "column":
-    target_column = _select_with_custom("Ziel-Spalte", target_columns, default_target_column, "cm_target_column")
+    target_column = _select_with_custom(
+        "Ziel-Spalte",
+        target_columns,
+        default_target_column,
+        "cm_target_column",
+        help_text="Spalte im Target fuer Kundenname-Match.",
+    )
 if target_type == "filename_regex":
-    target_regex = st.text_input("Ziel-Dateiname Regex", value=default_target_regex, key="cm_target_regex")
+    target_regex = st.text_input(
+        "Ziel-Dateiname Regex",
+        value=default_target_regex,
+        key="cm_target_regex",
+        help="Regex muss den Kundenname aus dem Target-Dateinamen liefern.",
+    )
 
 colApplyCM1, colApplyCM2 = st.columns(2)
 with colApplyCM1:
@@ -403,18 +498,64 @@ target_match_column_default = str(tgt_match.get("column") or "")
 
 colMR1, colMR2, colMR3 = st.columns(3)
 with colMR1:
-    elem_fuzzy = st.number_input("Element-Fuzzy-Schwelle", min_value=0.0, max_value=1.0, step=0.01, value=elem_fuzzy_default, key="mr_elem_fuzzy")
+    elem_fuzzy = st.number_input(
+        "Element-Fuzzy-Schwelle",
+        min_value=0.0,
+        max_value=1.0,
+        step=0.01,
+        value=elem_fuzzy_default,
+        key="mr_elem_fuzzy",
+        help="Threshold fuer Element->Target Fuzzy-Matching.",
+    )
 with colMR2:
-    cust_mode = st.selectbox("Customer-Match Modus", ["exact", "contains", "fuzzy"], index=["exact", "contains", "fuzzy"].index(cust_mode_default) if cust_mode_default in ["exact", "contains", "fuzzy"] else 0, key="mr_cust_mode")
-    cust_norm = st.multiselect("Customer-Normalize", match_norm_options, default=[x for x in cust_norm_default if x in match_norm_options], key="mr_cust_norm")
+    cust_mode = st.selectbox(
+        "Customer-Match Modus",
+        ["exact", "contains", "fuzzy"],
+        index=["exact", "contains", "fuzzy"].index(cust_mode_default) if cust_mode_default in ["exact", "contains", "fuzzy"] else 0,
+        key="mr_cust_mode",
+        help="Match-Logik fuer Kundenname.",
+    )
+    cust_norm = st.multiselect(
+        "Customer-Normalize",
+        match_norm_options,
+        default=[x for x in cust_norm_default if x in match_norm_options],
+        key="mr_cust_norm",
+        help="Normalisierungsschritte vor dem Match.",
+    )
 with colMR3:
-    tgt_mode = st.selectbox("Target-Match Modus", ["exact", "contains", "fuzzy"], index=["exact", "contains", "fuzzy"].index(tgt_mode_default) if tgt_mode_default in ["exact", "contains", "fuzzy"] else 0, key="mr_tgt_mode")
-    tgt_norm = st.multiselect("Target-Normalize", match_norm_options, default=[x for x in tgt_norm_default if x in match_norm_options], key="mr_tgt_norm")
-    target_match_column = _select_with_custom("Target-Match Spalte", target_columns, target_match_column_default, "mr_target_match_column")
+    tgt_mode = st.selectbox(
+        "Target-Match Modus",
+        ["exact", "contains", "fuzzy"],
+        index=["exact", "contains", "fuzzy"].index(tgt_mode_default) if tgt_mode_default in ["exact", "contains", "fuzzy"] else 0,
+        key="mr_tgt_mode",
+        help="Match-Logik fuer Ziel-Label.",
+    )
+    tgt_norm = st.multiselect(
+        "Target-Normalize",
+        match_norm_options,
+        default=[x for x in tgt_norm_default if x in match_norm_options],
+        key="mr_tgt_norm",
+        help="Normalisierungsschritte fuer Ziel-Label.",
+    )
+    target_match_column = _select_with_custom(
+        "Target-Match Spalte",
+        target_columns,
+        target_match_column_default,
+        "mr_target_match_column",
+        help_text="Spalte im Target, die fuer das Matching verwendet wird.",
+    )
 
 cust_fuzzy = None
 if cust_mode == "fuzzy":
-    cust_fuzzy = st.number_input("Customer-Fuzzy-Schwelle", min_value=0.0, max_value=1.0, step=0.01, value=cust_fuzzy_default, key="mr_cust_fuzzy")
+    cust_fuzzy = st.number_input(
+        "Customer-Fuzzy-Schwelle",
+        min_value=0.0,
+        max_value=1.0,
+        step=0.01,
+        value=cust_fuzzy_default,
+        key="mr_cust_fuzzy",
+        help="Threshold fuer Fuzzy-Matching des Kundennamens.",
+    )
 
 colMRApply1, colMRApply2 = st.columns(2)
 with colMRApply1:
@@ -473,6 +614,7 @@ map_df = st.data_editor(
     num_rows="dynamic",
     key="elem_map_editor",
     use_container_width=True,
+    help="Direktes Mapping Element-Text -> Ziel-Dateiname.",
 )
 
 rules_rows = []
@@ -505,9 +647,16 @@ rules_df = st.data_editor(
     num_rows="dynamic",
     key="elem_rules_editor",
     use_container_width=True,
+    help="Regeln: when_contains/regex und target (filename/label contains).",
 )
 
-elem_column = _select_with_custom("Element-Spalte", source_columns, elem_column_default, "elem_column_input")
+elem_column = _select_with_custom(
+    "Element-Spalte",
+    source_columns,
+    elem_column_default,
+    "elem_column_input",
+    help_text="Spalte mit Elementnamen in der Source.",
+)
 
 colElemApply1, colElemApply2 = st.columns(2)
 with colElemApply1:
@@ -597,37 +746,69 @@ content_mode = st.selectbox(
     ["row_columns", "join_column"],
     index=["row_columns", "join_column"].index(content_mode) if content_mode in ["row_columns", "join_column"] else 0,
     key="content_mode",
+    help="row_columns: pro Zeile; join_column: alles zusammenfassen.",
 )
 
-lang_rows = []
-for lang, cfg in (content_cfg.get("languages", {}) or {}).items():
-    if cfg is None:
-        continue
+langs_cfg = (content_cfg.get("languages") or {}) if isinstance(content_cfg, dict) else {}
+lang_keys = list(langs_cfg.keys())
+extra_langs = st.session_state.get("content_extra_langs", [])
+for lang in extra_langs:
+    if lang not in lang_keys:
+        lang_keys.append(lang)
+
+colLangAdd1, colLangAdd2 = st.columns([2, 1])
+with colLangAdd1:
+    new_lang = st.text_input(
+        "Neue Sprache (z. B. IT)",
+        value="",
+        key="content_new_lang",
+        help="Fuegt eine neue Sprachsektion hinzu.",
+    )
+with colLangAdd2:
+    if st.button("Sprache hinzufuegen"):
+        code = new_lang.strip()
+        if code and code not in lang_keys:
+            st.session_state["content_extra_langs"] = extra_langs + [code]
+            st.success(f"Sprache hinzugefuegt: {code}")
+
+lang_ui_values = {}
+for lang in lang_keys:
+    cfg = langs_cfg.get(lang, {}) or {}
     cols = cfg.get("columns") or cfg.get("column") or []
     if not isinstance(cols, list):
         cols = [cols]
-    lang_rows.append({
-        "lang": str(lang),
-        "columns": ", ".join([str(x) for x in cols]),
-        "target_column": str(cfg.get("target_column") or ""),
-    })
+    target_col = str(cfg.get("target_column") or "")
+    with st.expander(f"Sprache: {lang}", expanded=True):
+        selected_cols = _multiselect_with_custom(
+            "Source-Spalten",
+            source_columns,
+            [str(x) for x in cols],
+            f"content_{lang}_cols",
+            help_text="Spalten, aus denen der Text fuer diese Sprache gelesen wird.",
+        )
+        selected_target = _select_with_custom(
+            "Ziel-Spalte",
+            target_columns,
+            target_col,
+            f"content_{lang}_target",
+            help_text="Spalte im Target, in die der Text geschrieben wird.",
+        )
+        lang_ui_values[lang] = {"columns": selected_cols, "target_column": selected_target}
 
-lang_df = st.data_editor(
-    pd.DataFrame(lang_rows, columns=["lang", "columns", "target_column"]),
-    num_rows="dynamic",
-    key="content_lang_editor",
-    use_container_width=True,
-)
+colContentApply1, colContentApply2 = st.columns(2)
+with colContentApply1:
+    apply_content = st.button("Content Extraction uebernehmen", key="content_apply")
+with colContentApply2:
+    apply_content_save = st.button("Uebernehmen + speichern", key="content_apply_save")
 
-if st.button("Content Extraction in Editor uebernehmen"):
+if apply_content or apply_content_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
         new_langs = {}
-        for _, row in lang_df.iterrows():
-            lang = str(row.get("lang") or "").strip()
-            cols = _split_csv_list(row.get("columns"))
-            target_col = str(row.get("target_column") or "").strip()
+        for lang, cfg in lang_ui_values.items():
+            cols = [c for c in cfg.get("columns", []) if str(c).strip()]
+            target_col = str(cfg.get("target_column") or "").strip()
             if not lang or not cols or not target_col:
                 continue
             new_langs[lang] = {"columns": cols, "target_column": target_col}
@@ -636,7 +817,9 @@ if st.button("Content Extraction in Editor uebernehmen"):
         editor_raw["source"]["content"]["languages"] = new_langs
 
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("Content Extraction in Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_content_save:
+            _save_editor_content_to(editor_path)
+        st.success("Content Extraction aktualisiert.")
 
 st.divider()
 st.subheader("Customer CSV-Row Match (UI)")
@@ -656,13 +839,29 @@ value_pref_default = ", ".join([str(x) for x in (cust_csv.get("value_column_pref
 
 colCSV1, colCSV2, colCSV3 = st.columns(3)
 with colCSV1:
-    row_match_col = st.text_input("Row-Match Spalte", value=row_match_col_default, key="csv_row_match_col")
+    row_match_col = _select_with_custom("Row-Match Spalte", source_columns, row_match_col_default, "csv_row_match_col")
 with colCSV2:
-    row_match_equals = st.text_input("Row-Match Equals", value=row_match_equals_default, key="csv_row_match_equals")
+    row_match_equals = st.text_input(
+        "Row-Match Equals",
+        value=row_match_equals_default,
+        key="csv_row_match_equals",
+        help="Wert der Row-Match Spalte, z. B. Firmenname.",
+    )
 with colCSV3:
-    value_pref = st.text_input("Value-Column Preference (CSV)", value=value_pref_default, key="csv_value_pref")
+    value_pref = st.text_input(
+        "Value-Column Preference (CSV)",
+        value=value_pref_default,
+        key="csv_value_pref",
+        help="Kommagetrennte Liste der bevorzugten Wertspalten (Name oder col_index:).",
+    )
 
-if st.button("CSV-Row Match in Editor uebernehmen"):
+colCSVApply1, colCSVApply2 = st.columns(2)
+with colCSVApply1:
+    apply_csv = st.button("CSV-Row Match uebernehmen", key="csv_apply")
+with colCSVApply2:
+    apply_csv_save = st.button("Uebernehmen + speichern", key="csv_apply_save")
+
+if apply_csv or apply_csv_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
@@ -677,7 +876,9 @@ if st.button("CSV-Row Match in Editor uebernehmen"):
         csv_cfg["value_column_preference"] = _split_csv_list(value_pref)
 
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("CSV-Row Match in Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_csv_save:
+            _save_editor_content_to(editor_path)
+        st.success("CSV-Row Match aktualisiert.")
 
 st.divider()
 st.subheader("Target Behavior (UI)")
@@ -694,13 +895,34 @@ strict_single_match = bool(behavior.get("strict_single_match", False))
 
 colTB1, colTB2, colTB3 = st.columns(3)
 with colTB1:
-    overwrite_existing_ui = st.checkbox("overwrite_existing", value=overwrite_existing, key="tb_overwrite_existing")
+    overwrite_existing_ui = st.checkbox(
+        "overwrite_existing",
+        value=overwrite_existing,
+        key="tb_overwrite_existing",
+        help="Ueberschreibt bestehende Inhalte im Target.",
+    )
 with colTB2:
-    write_only_if_present_ui = st.checkbox("write_only_if_present", value=write_only_if_present, key="tb_write_only_if_present")
+    write_only_if_present_ui = st.checkbox(
+        "write_only_if_present",
+        value=write_only_if_present,
+        key="tb_write_only_if_present",
+        help="Schreibt nur wenn fuer die Sprache Text vorhanden ist.",
+    )
 with colTB3:
-    strict_single_match_ui = st.checkbox("strict_single_match", value=strict_single_match, key="tb_strict_single_match")
+    strict_single_match_ui = st.checkbox(
+        "strict_single_match",
+        value=strict_single_match,
+        key="tb_strict_single_match",
+        help="Blockiert bei mehreren Treffern.",
+    )
 
-if st.button("Target Behavior in Editor uebernehmen"):
+colTBApply1, colTBApply2 = st.columns(2)
+with colTBApply1:
+    apply_tb = st.button("Target Behavior uebernehmen", key="tb_apply")
+with colTBApply2:
+    apply_tb_save = st.button("Uebernehmen + speichern", key="tb_apply_save")
+
+if apply_tb or apply_tb_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
@@ -710,7 +932,9 @@ if st.button("Target Behavior in Editor uebernehmen"):
         editor_raw["target"]["behavior"]["strict_single_match"] = bool(strict_single_match_ui)
 
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("Target Behavior in Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_tb_save:
+            _save_editor_content_to(editor_path)
+        st.success("Target Behavior aktualisiert.")
 
 st.divider()
 st.subheader("Output Optionen (UI)")
@@ -727,13 +951,34 @@ write_collisions_ui = bool(out_cfg.get("write_collisions", True))
 
 colOut1, colOut2, colOut3 = st.columns(3)
 with colOut1:
-    write_reports_ui = st.checkbox("write_reports", value=write_reports_ui, key="out_write_reports")
+    write_reports_ui = st.checkbox(
+        "write_reports",
+        value=write_reports_ui,
+        key="out_write_reports",
+        help="Erzeugt report.csv, blocked.csv und audit.json.",
+    )
 with colOut2:
-    reports_exclude_text_ui = st.checkbox("reports_exclude_text", value=reports_exclude_text_ui, key="out_reports_exclude_text")
+    reports_exclude_text_ui = st.checkbox(
+        "reports_exclude_text",
+        value=reports_exclude_text_ui,
+        key="out_reports_exclude_text",
+        help="Entfernt Textinhalte aus Reports.",
+    )
 with colOut3:
-    write_collisions_ui = st.checkbox("write_collisions", value=write_collisions_ui, key="out_write_collisions")
+    write_collisions_ui = st.checkbox(
+        "write_collisions",
+        value=write_collisions_ui,
+        key="out_write_collisions",
+        help="Schreibt collisions.csv bei widerspruechlichen Writes.",
+    )
 
-if st.button("Output Optionen in Editor uebernehmen"):
+colOutApply1, colOutApply2 = st.columns(2)
+with colOutApply1:
+    apply_out = st.button("Output Optionen uebernehmen", key="out_apply")
+with colOutApply2:
+    apply_out_save = st.button("Uebernehmen + speichern", key="out_apply_save")
+
+if apply_out or apply_out_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
@@ -743,7 +988,9 @@ if st.button("Output Optionen in Editor uebernehmen"):
         editor_raw["output"]["write_collisions"] = bool(write_collisions_ui)
 
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("Output Optionen in Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_out_save:
+            _save_editor_content_to(editor_path)
+        st.success("Output Optionen aktualisiert.")
 
 st.divider()
 st.subheader("Social Links (UI)")
@@ -770,9 +1017,16 @@ platform_df = st.data_editor(
     num_rows="dynamic",
     key="social_platform_editor",
     use_container_width=True,
+    help="Pro Plattform Keywords und Domains (Komma-getrennt).",
 )
 
-if st.button("Social Overrides in Editor uebernehmen"):
+colSocialApply1, colSocialApply2 = st.columns(2)
+with colSocialApply1:
+    apply_social = st.button("Social Overrides uebernehmen", key="social_apply")
+with colSocialApply2:
+    apply_social_save = st.button("Uebernehmen + speichern", key="social_apply_save")
+
+if apply_social or apply_social_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
@@ -789,7 +1043,9 @@ if st.button("Social Overrides in Editor uebernehmen"):
         else:
             editor_raw.pop("social", None)
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("Social Overrides in Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_social_save:
+            _save_editor_content_to(editor_path)
+        st.success("Social Overrides aktualisiert.")
 
 colSocial1, colSocial2 = st.columns(2)
 with colSocial1:
@@ -805,7 +1061,12 @@ with colSocial2:
     base = pathlib.Path(output_dir)
     run_dirs = [p for p in base.glob("run_*") if p.is_dir()] if base.exists() else []
     run_names = [p.name for p in sorted(run_dirs, reverse=True)]
-    run_choice = st.selectbox("Run-Ordner", run_names, key="social_run_choice") if run_names else None
+    run_choice = st.selectbox(
+        "Run-Ordner",
+        run_names,
+        key="social_run_choice",
+        help="Aus welchem Run social_unmapped.csv geladen wird.",
+    ) if run_names else None
     if st.button("social_unmapped.csv laden (ausgewaehlter Run)"):
         if not run_choice:
             st.warning("Keine Run-Ordner gefunden.")
@@ -927,13 +1188,26 @@ if dir_ok(source_dir) and dir_ok(target_dir) and job_ui is not None:
     tgt_paths = list_files(target_dir, job_ui.target.file_types)
     src_names = [p.name for p in src_paths]
     if src_names:
-        src_choice = st.selectbox("Source-Datei", src_names, key="preview_source_file")
+        src_choice = st.selectbox(
+            "Source-Datei",
+            src_names,
+            key="preview_source_file",
+            help="Datei fuer die Vorschau auswaehlen.",
+        )
         src_path = next((p for p in src_paths if p.name == src_choice), None)
         if src_path is not None:
             try:
                 items = extract_row_items(src_path, job_ui)
                 if items:
-                    idx = st.number_input("Row-Index", min_value=0, max_value=max(len(items) - 1, 0), step=1, value=0, key="preview_row_index")
+                    idx = st.number_input(
+                        "Row-Index",
+                        min_value=0,
+                        max_value=max(len(items) - 1, 0),
+                        step=1,
+                        value=0,
+                        key="preview_row_index",
+                        help="Welche Zeile aus der Source fuer die Vorschau genutzt wird.",
+                    )
                     if st.button("Preview anzeigen"):
                         elem, texts, row = items[int(idx)]
                         cust = extract_customer_key(src_path, job_ui, row=row)
@@ -981,7 +1255,11 @@ with colE2:
         except Exception as e:
             st.error(str(e))
 with colE3:
-    save_name = st.text_input("Dateiname", value=editor_job_name)
+    save_name = st.text_input(
+        "Dateiname",
+        value=editor_job_name,
+        help="Dateiname fuer das Speichern des Editor-Inhalts.",
+    )
     if st.button("Speichern"):
         name = save_name.strip()
         if not name:
@@ -993,7 +1271,12 @@ with colE3:
             out_path.write_text(st.session_state["editor_content"], encoding="utf-8")
             st.success(f"Gespeichert: {out_path.name}")
 
-st.text_area("Job-Config (YAML/JSON)", key="editor_content", height=320)
+st.text_area(
+    "Job-Config (YAML/JSON)",
+    key="editor_content",
+    height=320,
+    help="Direktes Bearbeiten der Config.",
+)
 
 st.divider()
 st.subheader("Run")
