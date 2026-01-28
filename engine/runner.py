@@ -69,9 +69,19 @@ def _build_target_label_map(target_paths: list[pathlib.Path]) -> dict[str, tuple
             label_map[key] = (label, p)
     return label_map
 
-def _detect_social_platform(text_de: str | None, text_fr: str | None) -> str | None:
+def _detect_social_platform(text_de: str | None, text_fr: str | None, social_cfg=None) -> str | None:
     hay = " ".join([t or "" for t in (text_de, text_fr)]).lower()
     urls = re.findall(r"https?://[^\s)\]]+", hay) + re.findall(r"\bwww\.[^\s)\]]+", hay)
+    if social_cfg and getattr(social_cfg, "platforms", None):
+        for platform, cfg in social_cfg.platforms.items():
+            domains = [str(d).lower() for d in (cfg.domains or [])]
+            keywords = [str(k).lower() for k in (cfg.keywords or [])]
+            if domains:
+                for url in urls:
+                    if any(d in url for d in domains):
+                        return platform
+            if keywords and any(k in hay for k in keywords):
+                return platform
     for url in urls:
         if "youtu.be" in url or "youtube.com" in url:
             return "YouTube"
@@ -233,6 +243,7 @@ def _resolve_target_path(
     element_map: dict,
     fuzzy_threshold: float,
     element_rules: list[dict],
+    social_cfg=None,
 ) -> tuple[str, pathlib.Path] | None:
     if not element_label:
         return None
@@ -253,7 +264,7 @@ def _resolve_target_path(
         return rule_match
 
     if "link social media" in element_label.lower():
-        platform = _detect_social_platform(text_de, text_fr)
+        platform = _detect_social_platform(text_de, text_fr, social_cfg)
         if platform is None:
             return None
         pkey = _normalize_key(platform)
@@ -323,6 +334,7 @@ def dry_run(job: JobConfig, source_dir: str, target_dir: str, strict_single_matc
                 element_map,
                 job.source.element.fuzzy_threshold,
                 job.source.element.rules,
+                job.social,
             )
             if resolved is None:
                 continue
@@ -355,7 +367,7 @@ def run(job: JobConfig, source_dir: str, target_dir: str, output_base_dir: str,
 
     hard_blocks = blocked_df[blocked_df["status"].isin(["BLOCK_NO_CUSTOMER","BLOCK_NO_MATCH","BLOCK_MULTI_MATCH"])]
     do_reports = job.output.write_reports if write_reports_override is None else write_reports_override
-    do_collisions = True if write_collisions_override is None else write_collisions_override
+    do_collisions = job.output.write_collisions if write_collisions_override is None else write_collisions_override
 
     if not hard_blocks.empty:
         if do_reports:
@@ -419,7 +431,7 @@ def run(job: JobConfig, source_dir: str, target_dir: str, output_base_dir: str,
             any_text = True
             if example_element is None:
                 example_element = elem
-            if _is_social_element(elem) and _detect_social_platform(texts.get("DE"), texts.get("FR")) is None:
+            if _is_social_element(elem) and _detect_social_platform(texts.get("DE"), texts.get("FR"), job.social) is None:
                 social_unmapped.append({
                     "source_file": sp.name,
                     "customer_name": cust,
@@ -445,6 +457,7 @@ def run(job: JobConfig, source_dir: str, target_dir: str, output_base_dir: str,
                 element_map,
                 job.source.element.fuzzy_threshold,
                 job.source.element.rules,
+                job.social,
             )
             if resolved is None:
                 unused_inputs.append({

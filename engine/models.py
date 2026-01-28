@@ -87,6 +87,16 @@ class TargetConfig:
 class OutputConfig:
     write_reports: bool
     reports_exclude_text: bool
+    write_collisions: bool
+
+@dataclass(frozen=True)
+class SocialPlatformConfig:
+    keywords: List[str]
+    domains: List[str]
+
+@dataclass(frozen=True)
+class SocialConfig:
+    platforms: Dict[str, SocialPlatformConfig]
 
 @dataclass(frozen=True)
 class JobConfig:
@@ -95,6 +105,7 @@ class JobConfig:
     target: TargetConfig
     output: OutputConfig
     customer_match: CustomerMatchConfig
+    social: Optional[SocialConfig] = None
 
 @dataclass
 class ReportRow:

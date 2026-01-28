@@ -5,7 +5,7 @@ from .models import (
     ContentConfig, ContentLangConfig, ContentLanguageConfig,
     CustomerKeySpec, CustomerMatchConfig,
     TargetConfig, TargetMatchConfig, TargetWriteConfig, TargetBehaviorConfig,
-    OutputConfig
+    OutputConfig, SocialConfig, SocialPlatformConfig
 )
 
 class JobConfigError(ValueError):
@@ -48,6 +48,25 @@ def _parse_key_spec(raw: dict, default_type: str | None = None) -> CustomerKeySp
         excel_cell=raw.get("excel_cell"),
         csv=csv_cfg
     )
+
+def _parse_social(raw: dict | None) -> SocialConfig | None:
+    if not raw:
+        return None
+    platforms_raw = raw.get("platforms", {}) or {}
+    if not isinstance(platforms_raw, dict):
+        raise JobConfigError("social.platforms must be a mapping")
+    platforms: dict[str, SocialPlatformConfig] = {}
+    for name, cfg in platforms_raw.items():
+        if cfg is None:
+            continue
+        if not isinstance(cfg, dict):
+            raise JobConfigError(f"social.platforms.{name} must be a mapping")
+        keywords = _as_list(cfg.get("keywords") or [])
+        domains = _as_list(cfg.get("domains") or [])
+        platforms[str(name)] = SocialPlatformConfig(keywords=keywords, domains=domains)
+    if not platforms:
+        return None
+    return SocialConfig(platforms=platforms)
 
 def load_job_from_raw(raw: dict) -> JobConfig:
     if not isinstance(raw, dict):
@@ -108,6 +127,7 @@ def load_job_from_raw(raw: dict) -> JobConfig:
     output_cfg = OutputConfig(
         write_reports=bool(_require(out, "write_reports")),
         reports_exclude_text=bool(_require(out, "reports_exclude_text")),
+        write_collisions=bool(out.get("write_collisions", True)),
     )
 
     content = _require(src, "content")
@@ -185,12 +205,15 @@ def load_job_from_raw(raw: dict) -> JobConfig:
         fuzzy_threshold=float(cm_fuzzy_threshold) if cm_fuzzy_threshold is not None else None,
     )
 
+    social_cfg = _parse_social(raw.get("social"))
+
     return JobConfig(
         job_name=job_name,
         source=source_cfg,
         target=target_cfg,
         output=output_cfg,
         customer_match=customer_match_cfg,
+        social=social_cfg,
     )
 
 def load_job(path: str) -> JobConfig:
