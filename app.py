@@ -343,7 +343,13 @@ if target_type == "column":
 if target_type == "filename_regex":
     target_regex = st.text_input("Ziel-Dateiname Regex", value=default_target_regex, key="cm_target_regex")
 
-if st.button("In Editor uebernehmen"):
+colApplyCM1, colApplyCM2 = st.columns(2)
+with colApplyCM1:
+    apply_cm = st.button("In Editor uebernehmen", key="cm_apply")
+with colApplyCM2:
+    apply_cm_save = st.button("Uebernehmen + speichern", key="cm_apply_save")
+
+if apply_cm or apply_cm_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
@@ -369,7 +375,9 @@ if st.button("In Editor uebernehmen"):
         editor_raw["customer_match"] = cm_new
 
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("In Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_cm_save:
+            _save_editor_content_to(editor_path)
+        st.success("Kunden-Match aktualisiert.")
 
 st.divider()
 st.subheader("Matching-Regeln (UI)")
@@ -391,6 +399,7 @@ cust_norm_default = list(cust_match.get("normalize") or tgt_match.get("normalize
 cust_fuzzy_default = float(cust_match.get("fuzzy_threshold", 0.78))
 tgt_mode_default = str(tgt_match.get("mode") or "exact")
 tgt_norm_default = list(tgt_match.get("normalize") or [])
+target_match_column_default = str(tgt_match.get("column") or "")
 
 colMR1, colMR2, colMR3 = st.columns(3)
 with colMR1:
@@ -401,12 +410,19 @@ with colMR2:
 with colMR3:
     tgt_mode = st.selectbox("Target-Match Modus", ["exact", "contains", "fuzzy"], index=["exact", "contains", "fuzzy"].index(tgt_mode_default) if tgt_mode_default in ["exact", "contains", "fuzzy"] else 0, key="mr_tgt_mode")
     tgt_norm = st.multiselect("Target-Normalize", match_norm_options, default=[x for x in tgt_norm_default if x in match_norm_options], key="mr_tgt_norm")
+    target_match_column = _select_with_custom("Target-Match Spalte", target_columns, target_match_column_default, "mr_target_match_column")
 
 cust_fuzzy = None
 if cust_mode == "fuzzy":
     cust_fuzzy = st.number_input("Customer-Fuzzy-Schwelle", min_value=0.0, max_value=1.0, step=0.01, value=cust_fuzzy_default, key="mr_cust_fuzzy")
 
-if st.button("Matching-Regeln in Editor uebernehmen"):
+colMRApply1, colMRApply2 = st.columns(2)
+with colMRApply1:
+    apply_mr = st.button("Matching-Regeln uebernehmen", key="mr_apply")
+with colMRApply2:
+    apply_mr_save = st.button("Uebernehmen + speichern", key="mr_apply_save")
+
+if apply_mr or apply_mr_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
@@ -430,10 +446,14 @@ if st.button("Matching-Regeln in Editor uebernehmen"):
         tgt_match_new = dict(tgt_match)
         tgt_match_new["mode"] = tgt_mode
         tgt_match_new["normalize"] = tgt_norm
+        if target_match_column.strip():
+            tgt_match_new["column"] = target_match_column.strip()
         editor_raw.setdefault("target", {})["match"] = tgt_match_new
 
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("Matching-Regeln in Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_mr_save:
+            _save_editor_content_to(editor_path)
+        st.success("Matching-Regeln aktualisiert.")
 
 st.divider()
 st.subheader("Source-Element Mapping (UI)")
@@ -487,9 +507,15 @@ rules_df = st.data_editor(
     use_container_width=True,
 )
 
-elem_column = st.text_input("Element-Spalte", value=elem_column_default, key="elem_column_input")
+elem_column = _select_with_custom("Element-Spalte", source_columns, elem_column_default, "elem_column_input")
 
-if st.button("Source-Element Mapping in Editor uebernehmen"):
+colElemApply1, colElemApply2 = st.columns(2)
+with colElemApply1:
+    apply_elem = st.button("Source-Element Mapping uebernehmen", key="elem_apply")
+with colElemApply2:
+    apply_elem_save = st.button("Uebernehmen + speichern", key="elem_apply_save")
+
+if apply_elem or apply_elem_save:
     if editor_raw is None:
         st.error("Editor-Config ist ungueltig. Bitte erst gueltigen Inhalt herstellen.")
     else:
@@ -552,7 +578,9 @@ if st.button("Source-Element Mapping in Editor uebernehmen"):
         editor_raw["source"]["element"]["rules"] = new_rules
 
         st.session_state["editor_content"] = _dump_config(editor_raw, editor_job_name)
-        st.success("Source-Element Mapping in Editor uebernommen. Zum Speichern bitte unten auf \"Speichern\" klicken.")
+        if apply_elem_save:
+            _save_editor_content_to(editor_path)
+        st.success("Source-Element Mapping aktualisiert.")
 
 st.divider()
 st.subheader("Content Extraction (UI)")
