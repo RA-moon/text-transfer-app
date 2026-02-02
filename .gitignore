@@ -33,3 +33,7 @@ Thumbs.db
 # App outputs
 output/
 input/
+
+AGENTS.md
+*_AGENT.md
+.codex/AGENTS.template.md
